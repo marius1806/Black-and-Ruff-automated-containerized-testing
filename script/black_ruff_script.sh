@@ -16,7 +16,7 @@ Options:
 
 black_ruff_script 1.0.0
 Copyright (C) 2025
-Created by Gabriel Marius Stanciu
+Created by Gabriel Marius Stancu
 License PROPRIETARY
 EOF
 )"
