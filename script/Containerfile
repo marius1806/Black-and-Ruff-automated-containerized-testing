@@ -1,0 +1,5 @@
+FROM reg.artifactory-eis.com/base_alpine_python39:3.20
+
+RUN pip install --upgrade pip
+
+CMD ["tail", "-f", "/dev/null"]
