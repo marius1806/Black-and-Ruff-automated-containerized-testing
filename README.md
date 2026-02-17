@@ -45,3 +45,17 @@ You can find out all the command options by executing:
 ```bash
 script/black_ruff_script.sh -h
 ```
+Basic usage:
+1. Build the container:
+```bash
+script/black_ruff_script.sh --black-version <black version> --ruff-version <ruff version> --mount-path <inside-container mount path of the code>
+```
+2. Execute the checks:
+```bash
+podman exec -it black_ruff_container black $mountPath
+podman exec -it black_ruff_container ruff check $mountPath
+```
+3. You can also enter the container and execute the checks inside by using this command:
+```bash
+podman exec -it black_ruff_container sh
+```
