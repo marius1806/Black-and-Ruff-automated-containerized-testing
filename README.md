@@ -1,11 +1,13 @@
 # Black-and-Ruff-automated-containerized-testing
 
 ## Problem
+
 In many small teams and startups, code quality checks (formatting, linting, testing) are either:
 1. Run manually
 2. Inconsistent between developers
 3. Dependent on local environments
 4. Or missing entirely
+
 This leads to:
 1. Broken builds
 2. Inconsistent style
