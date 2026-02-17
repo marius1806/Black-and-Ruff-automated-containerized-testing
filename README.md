@@ -29,6 +29,7 @@ I designed a Docker-based automated testing environment that:
 4. Can be executed locally or inside CI (GitHub Actions compatible)
 
 ## Architecture
+```bash
 Developer Code
       ↓
 Docker Container
@@ -37,3 +38,4 @@ Black (formatter)
 Ruff (linter)
       ↓
 Pass / Fail Exit Code
+```
