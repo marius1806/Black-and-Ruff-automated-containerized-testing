@@ -39,3 +39,9 @@ Ruff (linter)
       ↓
 Pass / Fail Exit Code
 ```
+
+## How it works
+You can find out all the command options by executing:
+```bash
+script/black_ruff_script.sh -h
+```
